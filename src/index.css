@@ -11,3 +11,171 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*navigation bar*/
+
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+body{
+  margin:0;
+}
+
+.row1 .left{
+  float:left;
+  padding-left:2%;
+}
+
+.display nav,nav ul{
+  list-style-type:none;
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width:992px){
+.display li:not(.display .menu ul li,.display li div){
+  display:inline-flex;
+}
+
+.row1 h2{
+  color:white;
+  font-weight:bold;
+}
+
+.display li .menu{
+  position:absolute;
+  margin-top:50px;
+  list-style-type:unset;
+}
+
+.display{
+  float:right;
+}
+
+.row1 .right{
+  float:right;
+  margin-right:5%;
+}
+
+.row1{
+  height:100px;
+}
+
+.img{
+  visibility:hidden;
+}
+
+.display{
+  padding-top:1.5%;
+}
+
+.list{
+  visibility:hidden;
+}
+
+}
+
+
+.display li:not(:last-child){
+  margin-right:50px;
+}
+
+.display li div{
+  word-wrap: nowrap;
+}
+
+.display .menu ul li{
+  display: block;
+  padding-left:0px;
+  line-height: 30px;
+}
+
+.mar-left1{
+  margin-left:-5%;
+  margin-top:5%;
+}
+
+.mar-left2{
+  margin-left:0%;
+}
+
+.display{
+  text-transform:capitalize;
+}
+
+.dispaly h2{
+  cursor:pointer;
+}
+
+.main{
+  cursor:pointer;
+}
+
+.row1{
+  background-color:dimgray;
+  width:100%;
+  height:60px;
+ /* padding-top:1%;*/
+}
+
+.row1 h1{
+ /* margin-left:2%;*/
+  color:blue;
+  font-weight:bolder;
+}
+
+.row1 *{
+  cursor:pointer;
+}
+
+h2{
+  font-size:20px;
+}
+
+h3{
+  font-size:15px;
+  font-weight:bold;
+}
+
+.color{
+  background-color:rgb(151, 147, 147);
+  padding:10px;
+}
+
+@media only screen and (max-width:992px){
+.display li{
+    display:block;
+    text-align:left;
+}
+
+ ul.display{
+   color:black;
+   float:left;
+   display:block;
+   margin-left: -140px;
+   margin-top: 70px;
+   background:rgb(151, 147, 147);
+   overflow:hidden;
+   height:0px;
+   transition: height 0.5s ease-in;
+  } 
+
+  .display #menu1.list,.display #menu2.list{
+    position: absolute;
+    display: block;
+    height: 200px;
+    color: wheat;
+  }
+
+  .display .menu{
+    height:0px;
+  }
+
+  .display h2{
+    font-weight:bold;
+  }
+
+  .img{
+    float:right;
+    margin-right:5%;
+  }
+}
+
