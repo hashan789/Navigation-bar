@@ -186,5 +186,9 @@ h3{
     height:0px;
     transition: height 0.5s ease-in;
    } 
+
+   ul.display{
+     height:400px;
+   }
 }
 

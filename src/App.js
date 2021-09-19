@@ -1,6 +1,7 @@
 import Menu from './menu.png';
 import './App.css';
 import Index from './index.png';
+import Index1 from './dropdown-arrow-icon-16.png';
 
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -60,7 +61,7 @@ function App() {
                    <ul className="display" id="menuList">
                        <li>
                            <div>
-                               <h2  class="main" id="color">about <span onClick={onAbout}><img className="pad" src={Index} width="15px" height="15px"/></span></h2>
+                               <h2  class="main" id="color">about <span onClick={onAbout}><img className="pad" src={Index1} width="30px" height="30px"/></span></h2>
                            </div>
                            <div className="menu mar-left1">
                               <ul id="menu1" className="list">
@@ -77,7 +78,7 @@ function App() {
                        <li><h2>programs</h2></li>
                        <li>
                          <div>
-                           <h2 id="color1">news & features <span onClick={onNews}><img className="pad" src={Index} width="15px" height="15px"/></span></h2>
+                           <h2 id="color1">news & features <span onClick={onNews}><img className="pad" src={Index1} width="30px" height="30px"/></span></h2>
                          </div>
                          <div className="menu mar-left2">
                            <ul id="menu2" className="list">
