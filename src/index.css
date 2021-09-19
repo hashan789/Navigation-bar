@@ -127,11 +127,11 @@ h2:hover{
 }
 
 h2{
-  font-size:20px;
+  font-size:16px;
 }
 
 h3{
-  font-size:15px;
+  font-size:14px;
   font-weight:bold;
 }
 
@@ -192,3 +192,13 @@ h3{
    }
 }
 
+.pad1{
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.line img{
+  float:left;
+  margin-top:5px;
+  border-radius: 50%;
+}

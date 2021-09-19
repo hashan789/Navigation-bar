@@ -1,7 +1,8 @@
+import React,{Component} from "react";
 import Menu from './menu.png';
 import './App.css';
-import Index from './index.png';
 import Index1 from './dropdown-arrow-icon-16.png';
+import logo from './IMG-20210919-WA0013.jpg';
 
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -53,7 +54,7 @@ function App() {
   return (
        <div className="row">
         <div className="row1 col-lg-12 col-sm-12">
-              <div><h1 className="left">LED KLN</h1></div>
+              <div className="line"><span><img className="pad1" src={logo} width="45px" height="45px"/></span><h1 className="left">LED KLN</h1></div>
               <div className="img">
                  <img src={Menu} alt="menu" width="30px" height="30px" class="menu-icon left" onClick={menu}/>
               </div>
