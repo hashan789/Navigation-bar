@@ -67,10 +67,6 @@ body{
   padding-top:1.5%;
 }
 
-.list{
-  visibility:hidden;
-}
-
 }
 
 
@@ -103,6 +99,10 @@ body{
 
 .dispaly h2{
   cursor:pointer;
+}
+
+h2:hover{
+  color:#0011cc;
 }
 
 .main{
@@ -140,34 +140,31 @@ h3{
   padding:10px;
 }
 
+.pad{
+  margin-left: 10px;
+}
+
+ .display #menu1.list,.display #menu2.list{
+  color:black;
+  float:left;
+  display:block;
+  margin-left: 0px;
+  margin-top: 0px;
+  background:rgb(151, 147, 147);
+  overflow:hidden;
+  height:0px;
+  transition: height 0.5s ease-in;
+} 
+
+#down{
+   font-size: 20px;
+}
+
 @media only screen and (max-width:992px){
 .display li{
     display:block;
     text-align:left;
 }
-
- ul.display{
-   color:black;
-   float:left;
-   display:block;
-   margin-left: -140px;
-   margin-top: 70px;
-   background:rgb(151, 147, 147);
-   overflow:hidden;
-   height:0px;
-   transition: height 0.5s ease-in;
-  } 
-
-  .display #menu1.list,.display #menu2.list{
-    position: absolute;
-    display: block;
-    height: 200px;
-    color: wheat;
-  }
-
-  .display .menu{
-    height:0px;
-  }
 
   .display h2{
     font-weight:bold;
@@ -177,5 +174,17 @@ h3{
     float:right;
     margin-right:5%;
   }
+
+  ul.display{
+    color:black;
+    float:left;
+    display:block;
+    margin-left: -140px;
+    margin-top: 70px;
+    background:rgb(151, 147, 147);
+    overflow:hidden;
+    height:0px;
+    transition: height 0.5s ease-in;
+   } 
 }
 
