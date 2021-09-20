@@ -39,7 +39,7 @@ function App() {
             var click2 = document.getElementById("menu2");
 
             if(click2.style.height == "0px"){
-              click2.style.height = "150px";
+              click2.style.height = "80px";
            // document.getElementById("color1").style.color = "#0011cc";
            // document.querySelector(".display #color1 i").classList.add("fas fa-angle-down");
             }
